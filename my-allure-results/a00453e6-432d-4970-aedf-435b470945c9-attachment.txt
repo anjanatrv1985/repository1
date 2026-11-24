@@ -1,0 +1,11 @@
+Application launched successfully
+Login is Successfull
+Home pge is successfully loaded
+Total product: 6
+Sauce Labs Backpack Added to Cart
+navigated to Shopping cart successfully
+Product verified successfully
+Checkout page is opened successfully
+Shipping details entered successfully
+Navigated to checkout overview page successsfully
+Order is Placed

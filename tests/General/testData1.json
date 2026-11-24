@@ -1,0 +1,17 @@
+ 
+    { 
+        "username": "anjanatrv@gmail.com",
+        "password": "admin@123",
+        "name": "Anjana",
+        "interest": ["Cypress","Java","API"],
+        "gender":"Female",
+        "address":
+            {
+                "area": "Aleppey",
+                "city": "Kerala",
+                "pincode": "696998"
+                
+            }
+    }
+
+

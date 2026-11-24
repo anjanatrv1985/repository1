@@ -1,0 +1,227 @@
+{
+  "config": {
+    "argv": [],
+    "configFile": "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\playwright.config.js",
+    "rootDir": "C:/Users/anjan/OneDrive/Playwright_Entri/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/anjan/OneDrive/Playwright_Entri/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "C:/Users/anjan/OneDrive/Playwright_Entri/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 40000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "Chromium",
+        "testDir": "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\tests",
+        "snapshotDir": "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 40000,
+        "use": {
+          "browserName": "chromium",
+          "headless": false,
+          "launchOptions": {
+            "slowMo": 1000
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "Chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "resultsDir": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.65.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "csv.spec.js",
+      "file": "csv.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FormValidation-Anjana",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12308,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T16:58:39.683Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c49564621e2b599414d-fbbb54285825ee86c910",
+          "file": "csv.spec.js",
+          "line": 10,
+          "column": 3
+        },
+        {
+          "title": "FormValidation-Neha",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11957,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T16:58:52.985Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c49564621e2b599414d-3618b729df5689e486d6",
+          "file": "csv.spec.js",
+          "line": 10,
+          "column": 3
+        },
+        {
+          "title": "FormValidation-Niya",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12006,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T16:59:05.197Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c49564621e2b599414d-7537b8dcd307254967be",
+          "file": "csv.spec.js",
+          "line": 10,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-17T16:58:36.849Z",
+    "duration": 41270.194000000134,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

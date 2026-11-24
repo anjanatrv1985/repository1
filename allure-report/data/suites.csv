@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5296","@smoke Login with valid credential should redirect to inventory","Chromium","2026-11-10","passed","2026-11-10","Source demo login module","Tag\tag.spec.js","",""
+"","4079","@sanity @login user see error when user name is missing","Chromium","2026-11-10","passed","2026-11-10","Source demo login module","Tag\tag.spec.js","",""
+"","5086","@regression Login with invalid credential to show error message","Chromium","2026-11-10","passed","2026-11-10","Source demo login module","Tag\tag.spec.js","",""

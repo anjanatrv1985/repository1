@@ -12,7 +12,7 @@ test('Flight Purchase',async({page})=>
  
     //Step 2: Select a Flight
     const luftansa= page.getByRole('row').filter({hasText:'Lufthansa'});
-    await expect()
+ //   await expect()
     await luftansa.getByRole('button',{name:'Choose This Flight'}).click();
     
     //Step 3: Verify the Purchase Page
