@@ -105,14 +105,14 @@
   },
   "suites": [
     {
-      "title": "csv.spec.js",
-      "file": "csv.spec.js",
+      "title": "faker2.spec.js",
+      "file": "faker2.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "FormValidation-Anjana",
-          "ok": true,
+          "title": "Generate data using website",
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -125,103 +125,78 @@
                 {
                   "workerIndex": 4,
                   "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 12308,
-                  "errors": [],
-                  "stdout": [],
+                  "status": "failed",
+                  "duration": 16261,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#output').locator('#curAddress')\nExpected substring: \u001b[32m\"931 Wolf Forest\"\u001b[39m\nTimeout: 6000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('#output').locator('#curAddress') with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('#output').locator('#curAddress')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#output').locator('#curAddress')\nExpected substring: \u001b[32m\"931 Wolf Forest\"\u001b[39m\nTimeout: 6000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('#output').locator('#curAddress') with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('#output').locator('#curAddress')\u001b[22m\n\n    at C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\tests\\faker2.spec.js:31:45",
+                    "location": {
+                      "file": "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\tests\\faker2.spec.js",
+                      "column": 45,
+                      "line": 31
+                    },
+                    "snippet": " \u001b[90m 29 |\u001b[39m   \u001b[36mawait\u001b[39m expect(output\u001b[33m.\u001b[39mlocator(\u001b[32m'#name'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(name)\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m \u001b[36mawait\u001b[39m expect(output\u001b[33m.\u001b[39mlocator(\u001b[32m'#email'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(email)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m \u001b[36mawait\u001b[39m expect(output\u001b[33m.\u001b[39mlocator(\u001b[32m'#curAddress'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(curAddress)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m \u001b[36mawait\u001b[39m expect(output\u001b[33m.\u001b[39mlocator(\u001b[32m'#permAddress'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(permAddress)\u001b[33m;\u001b[39m\n \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\tests\\faker2.spec.js",
+                        "column": 45,
+                        "line": 31
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#output').locator('#curAddress')\nExpected substring: \u001b[32m\"931 Wolf Forest\"\u001b[39m\nTimeout: 6000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('#output').locator('#curAddress') with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('#output').locator('#curAddress')\u001b[22m\n\n\n \u001b[90m 29 |\u001b[39m   \u001b[36mawait\u001b[39m expect(output\u001b[33m.\u001b[39mlocator(\u001b[32m'#name'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(name)\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m \u001b[36mawait\u001b[39m expect(output\u001b[33m.\u001b[39mlocator(\u001b[32m'#email'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(email)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m \u001b[36mawait\u001b[39m expect(output\u001b[33m.\u001b[39mlocator(\u001b[32m'#curAddress'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(curAddress)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m \u001b[36mawait\u001b[39m expect(output\u001b[33m.\u001b[39mlocator(\u001b[32m'#permAddress'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(permAddress)\u001b[33m;\u001b[39m\n \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m\n\u001b[2m    at C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\tests\\faker2.spec.js:31:45\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "name Rosa Mann\n"
+                    },
+                    {
+                      "text": "email Friedrich.Schowalter@gmail.com\n"
+                    },
+                    {
+                      "text": "Current Address 931 Wolf Forest\n"
+                    },
+                    {
+                      "text": "Permanent Address Gerardobury\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T16:58:39.683Z",
+                  "startTime": "2026-11-25T15:29:14.299Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\test-results\\faker2-Generate-data-using-website-Chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\anjan\\OneDrive\\Playwright_Entri\\tests\\faker2.spec.js",
+                    "column": 45,
+                    "line": 31
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
-          "id": "5c49564621e2b599414d-fbbb54285825ee86c910",
-          "file": "csv.spec.js",
-          "line": 10,
-          "column": 3
-        },
-        {
-          "title": "FormValidation-Neha",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Chromium",
-              "projectName": "Chromium",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 11957,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-17T16:58:52.985Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "5c49564621e2b599414d-3618b729df5689e486d6",
-          "file": "csv.spec.js",
-          "line": 10,
-          "column": 3
-        },
-        {
-          "title": "FormValidation-Niya",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 40000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Chromium",
-              "projectName": "Chromium",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 12006,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-17T16:59:05.197Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "5c49564621e2b599414d-7537b8dcd307254967be",
-          "file": "csv.spec.js",
-          "line": 10,
-          "column": 3
+          "id": "201a69b8537d791cf2b6-c70cdab3087e421c216d",
+          "file": "faker2.spec.js",
+          "line": 4,
+          "column": 1
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-17T16:58:36.849Z",
-    "duration": 41270.194000000134,
-    "expected": 3,
+    "startTime": "2026-11-25T15:29:12.333Z",
+    "duration": 19935.266999999993,
+    "expected": 0,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
